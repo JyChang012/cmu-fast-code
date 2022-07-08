@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/afs/andrew.cmu.edu/usr18/jiayuc/private/fastcode1/hw1/latency_simd_add.c
+stdio.h
+-
+stdlib.h
+-
+immintrin.h
+/afs/andrew.cmu.edu/usr18/jiayuc/private/fastcode1/hw1/immintrin.h
+

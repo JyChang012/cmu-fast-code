@@ -1,0 +1,1 @@
+compile and run all the sources by `$ bash run.sh`, Cycles will be printed with the same order as required in assignment.

@@ -1,0 +1,6 @@
+TOPSRCDIR = /afs/andrew.cmu.edu/usr18/jiayuc/private/fastcode1/lapack-3.10.0
+include $(TOPSRCDIR)/make.inc
+INCLUDE = $(TOPSRCDIR)/
+
+lu_kernel.o: lu_kernel.c
+    gcc -O3 -I$(INCLUDE) lu_kernel.c -L$(TOPSRCDIR) -lrefblas -llapack -llapacke -ltmglib -lm -o lu_kernel.x -mavx -mfma -std=c99 -Wall

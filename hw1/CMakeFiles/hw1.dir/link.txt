@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hw1.dir/latency_simd_add.c.o  -o hw1 -rdynamic 
